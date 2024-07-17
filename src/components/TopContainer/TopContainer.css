@@ -1,0 +1,17 @@
+.topContainer{
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+    position: relative;
+}
+
+.topContainer_img{
+    max-width: 400px;
+    max-height: 400px;
+    position: absolute;
+    border-radius: 50%;
+    top: 15%;
+    right: 12%;
+}
