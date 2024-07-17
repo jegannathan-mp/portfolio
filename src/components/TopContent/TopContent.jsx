@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import './TopContent.css'
-import myImg from "../../assets/J1x1.jpg"
 
 const TopContent = () => {
   return (

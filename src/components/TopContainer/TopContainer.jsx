@@ -8,7 +8,7 @@ const TopContainer = () => {
   return (
     
         <Element name='about' className='topContainer'>
-          <img src={myImg} className='topContainer_img' alt="Jegan Image" />
+          <img src={myImg} className='topContainer_img' alt="Jegan" />
             <TopContent/>
         </Element>
     
