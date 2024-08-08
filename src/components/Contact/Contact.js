@@ -5,15 +5,19 @@ import { Element } from 'react-scroll'
 import './Contact.css'
 
 const Contact = () => {
+    const email = "mpjegannathanmech@gmail.com";
+    const subject = "Subject of the email";
+    const body = "Body of the email";
   return (
     <Element className='contact' id='contact'>
         <h1>Contact</h1>
         <div className='contact_container'>
             <p>
-                Email : <span>mpjegannathanmech@gmail.com</span>
+            Email : <a href={`mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`}>
+            <span className='contact_span_custom'>mpjegannathanmech@gmail.com</span></a>
             </p>
             <p>
-                Github Username : <span>jegannathan-mp</span>
+                Github Username : <a href='https://www.github.com/jegannathan-mp'><span className='contact_span_custom'>jegannathan-mp</span></a>
             </p>
             <div className='contact_icons'>
             <a href='https://www.linkedin.com/in/mpjegannathanmech' target='_blank' rel="noopener noreferrer">
