@@ -4,7 +4,7 @@ import TopContainer from './components/TopContainer/TopContainer'
 import SkillContainer from './components/SkillContainer/SkillContainer'
 import ProjectContainer from './components/ProjectContainer/ProjectContainer'
 import './App.css'
-import ExperienceContainer from './components/ExperienceContainer/ExperienceContainer'
+// import ExperienceContainer from './components/ExperienceContainer/ExperienceContainer'
 import Contact from './components/Contact/Contact'
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
       <TopContainer/>
       <SkillContainer/>
       <ProjectContainer/>
-      <ExperienceContainer/>
+      {/* <ExperienceContainer/> */}
       <Contact/>
     </div>
   )

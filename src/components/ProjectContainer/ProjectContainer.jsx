@@ -20,7 +20,7 @@ const ProjectContainer = () => {
             img: project1,
             title: 'Todo MERN',
             description: 'Built with the MERN stack and styled with Reactstrap, the project features secure user authentication using Node.js, JWT tokens, and bcrypt for passwords, leveraging MongoDB cloud storage for efficient data management. Each user manages tasks through their unique email for personalized and secure access.',
-            link: 'https://github.com/jegannathan-mp/Projects/tree/main/TodoListMERN',
+            link: 'https://ijackx-todolist-mern.netlify.app',
         },
         {
             img: project2,
