@@ -25,11 +25,11 @@ const Header = () => {
                     Projects
                 </h4>
             </Link>
-            <Link to='exp' smooth={true} duration={500} >
+            {/* <Link to='exp' smooth={true} duration={500} >
                 <h4>
                     Experience
                 </h4>
-            </Link>
+            </Link> */}
             <Link to='contact' smooth={true} duration={500} >
                 <h4>
                     Contact

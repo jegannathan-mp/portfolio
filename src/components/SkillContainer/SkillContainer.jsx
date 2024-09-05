@@ -36,14 +36,14 @@ const SkillContainer = () => {
             <div className='skillcontainer_skillset'>
                 <h5>ReactJs</h5>
                 <div className='skillcontainer_slider skillcontainer_slider4'>
-                    <LinearProgress variant="determinate" value={75} />
+                    <LinearProgress variant="determinate" value={85} />
                 </div>
             </div>
 
             <div className='skillcontainer_skillset'>
                 <h5>NodeJs</h5>
                 <div className='skillcontainer_slider skillcontainer_slider5'>
-                    <LinearProgress variant="determinate" value={65} />
+                    <LinearProgress variant="determinate" value={75} />
                 </div>
             </div>
 
